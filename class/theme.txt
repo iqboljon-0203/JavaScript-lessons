@@ -1,0 +1,38 @@
+Class basic and advanced
+Class=> code template for creating object
+1.class nima? || class vs konstructor functions => prototype
+function User(name,lname){
+    this.name=name;
+    this.lname=lname;
+    this.fulName=function(){
+        return `His name is ${this.name} ${this.lname}`;
+    }
+}
+2.new ClassNomi()
+3.usr1 vs usr2
+4.typeof myClass => function
+5.constructor(){
+
+}
+6.global variable
+7.getter/setter => tashqaridan kirishni cheklaydi
+8.computed Names
+9.Inheritance
+10.super.method()=>parent methodini chaqirish
+11.Overriding constructor with child class
+12.super()=> parentga parametr yuborish
+13.default constructor ...args
+14.static variable and functions
+15.public and private => _ and # change with getter/setter
+16.built in classes
+17.inctanceof 
+18.mixins => Object.assign(class.prototype,obj)
+19.OOP => programming paradigm => imperative(how to do)=> OOP and declarative(what to do) => functional programming
+exmple => log vs function
+20.Inheritance => meros qoldirish
+21.Encapsulation => classda tashqariga nima ko'rinish yoki ko'rinmasligini bildiradi => getter/setter,private,protected,public => har bir class o'z ishini qilish kerak degan tushunchani oldinga suradi
+22.Abstraction => class faqatgina ishlatiladi method yoki propertilarni tashqariga chiqaradi.Orqa fondagi narsalar orqada qoladi
+23.Polimorfizm =>methodlar sharoitga qarab har xil qiymatlar qaytarishi.Masalan sayName methodi ishlatilgan class ismini chiqaradi 
+
+Polimorfizm 2 xil bo'ladi : parameter based => constructordan keladi
+inheritance based =>methodlarni ustidan yozish
